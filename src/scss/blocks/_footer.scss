@@ -77,7 +77,14 @@
         
         background-color: #ededed;
     }
+    &__item-link{
+        color: #aa0606;
+    }
+    &__social-link{
+        color: #aa0606;
+    }
     &__about-title{
+        color: #aa0606;
         text-align: center;
         @extend %main-text;
         font-size: 44px;
