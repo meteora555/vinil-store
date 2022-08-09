@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
         autoplayHoverPause: true,
         autoplayButtonOutput: false,
         controlsPosition: "bottom",
-        controlsText: "markup",
+        controlsText: "none",
         navPosition: "bottom",
        
         speed: 200

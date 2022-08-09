@@ -119,6 +119,41 @@
 }
 .main__slider{
     margin-top: 25px;
-    margin-left: 400px;
-    
+    margin-left: 285px;
+    padding-bottom: 40px;
+}
+.tns-nav{
+    display: none;
+}
+.tns-controls{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    button:first-child{
+        
+        position: absolute;
+        left: 270px;
+        bottom: 230px;
+        background-image: url(../../../src/images/icons/prev.png);
+        width: 65px;
+        height: 65px;
+        opacity: 0.3;
+        &:hover{
+            opacity: 0.8;
+        }
+        
+    }
+    button:last-child{
+        position: absolute;
+        right: 196px;
+        bottom: 230px;
+        background-image: url(../../../src/images/icons/next.png);
+        width: 65px;
+        height: 65px;
+        opacity: 0.3;
+        &:hover{
+            opacity: 0.8;
+        }
+        
+    }
 }

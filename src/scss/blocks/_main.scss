@@ -118,12 +118,12 @@
     }
     &__gallery-item-price{
         @extend %main-text;
+        margin-bottom: 15px;
     }
 }
 .comin{
     &__gallery{
-        padding-left: 40px;
-        padding-right: 40px;
+        padding: 20px 40px 20px 40px;
         background-color: #fff;
         margin-bottom: 60px;
     }
