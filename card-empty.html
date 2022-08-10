@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="build/css/style.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+   <title>Vinil Store</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__inner">
+            <div class="header__logo">
+               <a class="header__logo-link" href="#">
+                  <img class="header__logo-img" src="./src/images/icons/logo.png" alt="logo">
+               </a>
+            </div>
+            <div class="header__search">
+               <input class="header__search-input" type="text" placeholder="Поиск...">
+               <button class="header__search-button">
+                  <img class="header__search-button-img" src="./src/images/icons/search.svg" alt="search">
+               </button>
+            </div>
+            <div class="header__nav">
+               <button class="header__nav">
+                  <img  class="header__nav-img" src="./src/images/icons/icon_menu.svg" alt="nav">
+               </button>
+            </div>
+            <div class="header__basket">
+               <a class="header__basket-link" href="#">
+                  <img class="header__basket-img" src="./src/images/icons/basket.svg" alt="basket">
+               </a>
+            </div>
+         </div>
+         <div class="breadcrumbs">
+            <div class="container">
+               <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__item">Предзаказ</li>
+                  <li class="breadcrumbs__item">Новые релизы</li>
+                  <li class="breadcrumbs__item">Жанры</li>
+                  <li class="breadcrumbs__item">Выбор критиков</li>
+                  <li class="breadcrumbs__item">Лучшие '22</li>
+                  <li class="breadcrumbs__item">Платиновый статус</li>
+                  <li class="breadcrumbs__item">Распродажа</li>
+               </ul>
+            </div>
+         </div>
+         <div class="empty__content">
+              <div class="container">
+                 <div class="cart cart--empty">
+                   <h2>Корзина пустая <icon>😕</icon></h2>
+                   <p>
+                     Вероятней всего, вы еще ничего не заказали.<br />
+                     Для того, чтобы заказать, перейдите на главную страницу.
+                   </p>
+                   
+                   <a href="/" class="cart__button">
+                     <span>Вернуться назад</span>
+                   </a>
+                 </div>
+               </div>
+         </div>
+      <footer class="footer">
+            <div class="footer__advice">
+               <p class="footer__advice-text">
+                  Зарегестрированные пользователи получают скидку 10% на первую покупку!
+               </p>
+            </div>
+            <div class="footer__signup">
+               <form class="footer__form">
+                  <input class="footer__form-input" type="text" placeholder="Имя">
+                  <input class="footer__form-input" type="text" placeholder="email">
+                  <button action="#"class="footer__form-button">Отправить</button>
+               </form>
+            </div>
+            <div class="footer__info">
+               <div class="footer__about">
+                  <h2 class="footer__about-title">
+                     о Vinil Store
+                  </h2>
+                  <p class="footer__about-text">
+                     Основанный в 2010 году, лучший музыкальный магазин  в старом добром интернете. Vinil Store возник как оазис для любителей музыки, которые не могут найти свою последнюю дозу на главной улице. Специализируясь на лучших новых группах и сливках известных альтернативных исполнителей, наш магазин стал одним из ведущих музыкальных онлайн-ритейлеров в России. Представлены эксклюзивные виниловые пластинки,кассеты, компакт диски и отпечатки с автографами ограниченным тиражом.
+                  </p>
+                  <p class="footer__about-copyright">
+                     © Copyright Digital Stores
+                  </p>
+               </div>
+               <div class="footer__menu">
+                  <ul class="footer__list">
+                     <li class="footer__item"><a class="footer__item-link" href="#" >Важная информация</a></li>
+                     <li class="footer__item"><a class="footer__item-link" href="#" >Помощь</a></li>
+                     <li class="footer__item"><a class="footer__item-link" href="#" >Доставка</a></li>
+                     <li class="footer__item"><a class="footer__item-link" href="#" >Наша команда</a></li>
+                  </ul>
+               </div>
+               <div class="footer__social">
+                  <ul class="footer__social-list">
+                     <li class="footer__social-item">
+                        <a  class="footer__social-link" href="#"> Telegram
+                           <img class="footer__social-img" src="./src/images/icons/telegram.svg" alt="telegram" >
+                        </a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a  class="footer__social-link" href="#"> Instagram
+                           <img class="footer__social-img" src="./src/images/icons/instagram.svg" alt="instagram" >
+                        </a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a  class="footer__social-link" href="#"> Facebook
+                           <img class="footer__social-img" src="./src/images/icons/facebook.svg" alt="facebook" >
+                        </a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a  class="footer__social-link" href="#"> Google+
+                           <img class="footer__social-img" src="./src/images/icons/google.svg" alt="google" >
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+      </footer>
+      <div class="help">
+         <a class="help__link" href="#" >
+            <button class="help__bitton">Помощь</button>
+         </a>
+      </div>
+   </div>
+
+   <script src="build/js/script.js"></script>
+</body>
+</html>
