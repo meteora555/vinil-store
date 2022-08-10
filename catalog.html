@@ -1,0 +1,4174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="build/css/style.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+   <title>Vinil Store</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__inner">
+            <div class="header__logo">
+               <a class="header__logo-link" href="#">
+                  <img class="header__logo-img" src="./src/images/icons/logo.png" alt="logo">
+               </a>
+            </div>
+            <div class="header__search">
+               <input class="header__search-input" type="text" placeholder="Поиск...">
+               <button class="header__search-button">
+                  <img class="header__search-button-img" src="./src/images/icons/search.svg" alt="search">
+               </button>
+            </div>
+            <div class="header__nav">
+               <button class="header__nav">
+                  <img  class="header__nav-img" src="./src/images/icons/icon_menu.svg" alt="nav">
+               </button>
+            </div>
+            <div class="header__basket">
+               <a class="header__basket-link" href="#">
+                  <img class="header__basket-img" src="./src/images/icons/basket.svg" alt="basket">
+               </a>
+            </div>
+         </div>
+         <div class="breadcrumbs">
+            <div class="container">
+               <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__item">Предзаказ</li>
+                  <li class="breadcrumbs__item">Новые релизы</li>
+                  <li class="breadcrumbs__item">Жанры</li>
+                  <li class="breadcrumbs__item">Выбор критиков</li>
+                  <li class="breadcrumbs__item">Лучшие '22</li>
+                  <li class="breadcrumbs__item">Платиновый статус</li>
+                  <li class="breadcrumbs__item">Распродажа</li>
+               </ul>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="main__wrapper">
+            <div class="catalog">
+               <div class="container">
+               <div class="catalog__filter">
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button catalog__button-active">Все</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Хип-хоп</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Регги</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Диско</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Поп</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Рок</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Электро</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Джаз</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Блюз</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Кантри</button>
+                  </div>
+                  <div class="catalog__filter-item">
+                     <button class="catalog__button">Фолк</button>
+                  </div>
+                  <div class="sort">
+                     <div class="sort__label">
+                       <svg
+                         width="10"
+                         height="6"
+                         viewBox="0 0 10 6"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg"
+                       >
+                         <path
+                           d="M10 5C10 5.16927 9.93815 5.31576 9.81445 5.43945C9.69075 5.56315 9.54427 5.625 9.375 5.625H0.625C0.455729 5.625 0.309245 5.56315 0.185547 5.43945C0.061849 5.31576 0 5.16927 0 5C0 4.83073 0.061849 4.68424 0.185547 4.56055L4.56055 0.185547C4.68424 0.061849 4.83073 0 5 0C5.16927 0 5.31576 0.061849 5.43945 0.185547L9.81445 4.56055C9.93815 4.68424 10 4.83073 10 5Z"
+                           fill="#2C2C2C"
+                         />
+                       </svg>
+                       <b>Сортировка по:</b>
+                       <span>популярности</span>
+                     </div>
+                     <div class="sort__popup">
+                       <ul>
+                         <li class="active__item">популярности</li>
+                         <li>цене</li>
+                         <li>алфавиту</li>
+                       </ul>
+                     </div>
+                   
+                </div>
+             </div>
+             <h2 class="catalog__title">Все товары</h2>
+             <div class="catalog__content">
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="vinil__item">
+                     <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                     <h4 class="vinil__item-title">Rammstein</h4>
+                     <div class="vinil__selector">
+                        <ul>
+                           <li class="active">Vinil</li>
+                           <li>CD</li>
+                           <li>Бокс сет</li>
+                        </ul>
+                     </div>
+                     <div class="vinil__item-bottom">
+                        <div class="vinil__item-price">5000 ₽</div>
+                        <div class="vinil__item-addbtn">
+                           <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                 <path
+                                    d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                    fill="black"
+                                 />
+                                 </svg>
+                                 <span>Добавить</span>
+                                 <i>1</i>
+                        </div>
+                     </div>
+                  </div>
+             </div>
+             <div class="catalog__hiphop">
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="vinil__item">
+                  <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+                  <h4 class="vinil__item-title">Rammstein</h4>
+                  <div class="vinil__selector">
+                     <ul>
+                        <li class="active">Vinil</li>
+                        <li>CD</li>
+                        <li>Бокс сет</li>
+                     </ul>
+                  </div>
+                  <div class="vinil__item-bottom">
+                     <div class="vinil__item-price">5000 ₽</div>
+                     <div class="vinil__item-addbtn">
+                        <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              >
+                              <path
+                                 d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                                 fill="black"
+                              />
+                              </svg>
+                              <span>Добавить</span>
+                              <i>1</i>
+                     </div>
+                  </div>
+               </div>
+          </div>
+          <div class="catalog__reggi">
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+            <div class="vinil__item">
+               <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+               <h4 class="vinil__item-title">Rammstein</h4>
+               <div class="vinil__selector">
+                  <ul>
+                     <li class="active">Vinil</li>
+                     <li>CD</li>
+                     <li>Бокс сет</li>
+                  </ul>
+               </div>
+               <div class="vinil__item-bottom">
+                  <div class="vinil__item-price">5000 ₽</div>
+                  <div class="vinil__item-addbtn">
+                     <svg
+                           width="12"
+                           height="12"
+                           viewBox="0 0 12 12"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                           >
+                           <path
+                              d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                              fill="black"
+                           />
+                           </svg>
+                           <span>Добавить</span>
+                           <i>1</i>
+                  </div>
+               </div>
+            </div>
+       </div>
+       <div class="catalog__disco">
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+         <div class="vinil__item">
+            <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+            <h4 class="vinil__item-title">Rammstein</h4>
+            <div class="vinil__selector">
+               <ul>
+                  <li class="active">Vinil</li>
+                  <li>CD</li>
+                  <li>Бокс сет</li>
+               </ul>
+            </div>
+            <div class="vinil__item-bottom">
+               <div class="vinil__item-price">5000 ₽</div>
+               <div class="vinil__item-addbtn">
+                  <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                           fill="black"
+                        />
+                        </svg>
+                        <span>Добавить</span>
+                        <i>1</i>
+               </div>
+            </div>
+         </div>
+    </div>
+    <div class="catalog__pop">
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+      <div class="vinil__item">
+         <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+         <h4 class="vinil__item-title">Rammstein</h4>
+         <div class="vinil__selector">
+            <ul>
+               <li class="active">Vinil</li>
+               <li>CD</li>
+               <li>Бокс сет</li>
+            </ul>
+         </div>
+         <div class="vinil__item-bottom">
+            <div class="vinil__item-price">5000 ₽</div>
+            <div class="vinil__item-addbtn">
+               <svg
+                     width="12"
+                     height="12"
+                     viewBox="0 0 12 12"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                        fill="black"
+                     />
+                     </svg>
+                     <span>Добавить</span>
+                     <i>1</i>
+            </div>
+         </div>
+      </div>
+ </div>
+ <div class="catalog__rock">
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="catalog__electro">
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="catalog__jazz">
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="catalog__blues">
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="catalog__countru">
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="catalog__folk">
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+   <div class="vinil__item">
+      <img class="vinil__item-img" src="./src/images/comin/rammstein-11.png" alt="">
+      <h4 class="vinil__item-title">Rammstein</h4>
+      <div class="vinil__selector">
+         <ul>
+            <li class="active">Vinil</li>
+            <li>CD</li>
+            <li>Бокс сет</li>
+         </ul>
+      </div>
+      <div class="vinil__item-bottom">
+         <div class="vinil__item-price">5000 ₽</div>
+         <div class="vinil__item-addbtn">
+            <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path
+                     d="M10.8 4.8H7.2V1.2C7.2 0.5373 6.6627 0 6 0C5.3373 0 4.8 0.5373 4.8 1.2V4.8H1.2C0.5373 4.8 0 5.3373 0 6C0 6.6627 0.5373 7.2 1.2 7.2H4.8V10.8C4.8 11.4627 5.3373 12 6 12C6.6627 12 7.2 11.4627 7.2 10.8V7.2H10.8C11.4627 7.2 12 6.6627 12 6C12 5.3373 11.4627 4.8 10.8 4.8Z"
+                     fill="black"
+                  />
+                  </svg>
+                  <span>Добавить</span>
+                  <i>1</i>
+         </div>
+      </div>
+   </div>
+</div>
+             
+         </div>
+         </div>
+      </main>
+  
+      
+      <footer class="footer">
+            <div class="footer__advice">
+               <p class="footer__advice-text">
+                  Зарегестрированные пользователи получают скидку 10% на первую покупку!
+               </p>
+            </div>
+            <div class="footer__signup">
+               <form class="footer__form">
+                  <input class="footer__form-input" type="text" placeholder="Имя">
+                  <input class="footer__form-input" type="text" placeholder="email">
+                  <button action="#"class="footer__form-button">Отправить</button>
+               </form>
+            </div>
+            <div class="footer__info">
+               <div class="footer__about">
+                  <h2 class="footer__about-title">
+                     о Vinil Store
+                  </h2>
+                  <p class="footer__about-text">
+                     Основанный в 2010 году, лучший музыкальный магазин  в старом добром интернете. Vinil Store возник как оазис для любителей музыки, которые не могут найти свою последнюю дозу на главной улице. Специализируясь на лучших новых группах и сливках известных альтернативных исполнителей, наш магазин стал одним из ведущих музыкальных онлайн-ритейлеров в России. Представлены эксклюзивные виниловые пластинки,кассеты, компакт диски и отпечатки с автографами ограниченным тиражом.
+                  </p>
+                  <p class="footer__about-copyright">
+                     © Copyright Digital Stores
+                  </p>
+               </div>
+               <div class="footer__menu">
+                  <ul class="footer__list">
+                     <li class="footer__item"><a class="footer__item-link" href="#" >Важная информация</a></li>
+                     <li class="footer__item"><a class="footer__item-link" href="#" >Помощь</a></li>
+                     <li class="footer__item"><a class="footer__item-link" href="#" >Доставка</a></li>
+                     <li class="footer__item"><a class="footer__item-link" href="#" >Наша команда</a></li>
+                  </ul>
+               </div>
+               <div class="footer__social">
+                  <ul class="footer__social-list">
+                     <li class="footer__social-item">
+                        <a  class="footer__social-link" href="#"> Telegram
+                           <img class="footer__social-img" src="./src/images/icons/telegram.svg" alt="telegram" >
+                        </a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a  class="footer__social-link" href="#"> Instagram
+                           <img class="footer__social-img" src="./src/images/icons/instagram.svg" alt="instagram" >
+                        </a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a  class="footer__social-link" href="#"> Facebook
+                           <img class="footer__social-img" src="./src/images/icons/facebook.svg" alt="facebook" >
+                        </a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a  class="footer__social-link" href="#"> Google+
+                           <img class="footer__social-img" src="./src/images/icons/google.svg" alt="google" >
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+      </footer>
+      <div class="help">
+         <a class="help__link" href="#" >
+            <button class="help__bitton">Помощь</button>
+         </a>
+      </div>
+   </div>
+
+   <script src="build/js/script.js"></script>
+</body>
+</html>
