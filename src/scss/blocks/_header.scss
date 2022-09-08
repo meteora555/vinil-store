@@ -4,6 +4,8 @@
         align-items: center;
         position: relative;
         padding-right: 15px;
+        width: 1500px;
+        margin: 0 auto;
         &::after{
             position: absolute;
             content:'';
@@ -82,9 +84,15 @@
     &__basket-link{
         padding-right: 10px;
     }
+    &__content{
+        width: 1500px;
+        margin: 0 auto;
+    }
 }
 .breadcrumbs{
     position: relative;
+    width: 1500px;
+     margin: 0 auto;
     &::after{
         position: absolute;
         content:'';
